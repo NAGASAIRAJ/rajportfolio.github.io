@@ -157,21 +157,23 @@
           
    
             
-            <CENTER>
-<FORM METHOD=POST ACTION="mailto:arunatriveni17@gmail.com" ENCTYPE="text/plain">
-<INPUT TYPE="text" NAME="username"> : name <BR>
-<INPUT TYPE="text" NAME="email"> : email <BR>
-comments <BR>
-<TEXTAREA NAME="COMMENTS" ROWS="10" WRAP="hard">
-</TEXTAREA>
-<INPUT NAME="redirect" TYPE="hidden" VALUE="index.html">
-<INPUT NAME="NEXT_URL" TYPE="hidden" VALUE="index.html">
-<BR>
-<INPUT TYPE="submit" VALUE="Send">
-<INPUT TYPE="reset" VALUE="Clear">
-</FORM>
-</CENTER>
-<!-- END OF FORM -->
+            <form action="contact.php" method="post" id="contact-form">
+              <fieldset>
+                <div class="form-group form-group-fullname">
+                  <label class="control-label" for="fullname">NAME *</label>
+                  <input type="text" class="form-control input-lg" name="fullname" id="fullname" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group form-group-email">
+                  <label class="control-label" for="email">E-MAIL *</label>
+                  <input type="text" class="form-control input-lg" name="email" id="email" placeholder="Enter Your E-Mail">
+                </div>
+                <div class="form-group form-group-message">
+                  <label class="control-label" for="message">MESSAGE *</label>
+                  <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                </div>                
+<!-- Subscribe to Comments Reloaded version 170428 --><!-- BEGIN: subscribe to comments reloaded --><p><label for="subscribe-reloaded"> <strong><button type="submit" class="btn btn-brand"><a href="http://dhuniyakeraj.xtgem.com/My%20Self/__xtblog_entry/11326479-dhuniyakeraj-e.c.e-c.r.#xt_blog">SUBMIT</a></button></strong></label></p>
+              </fieldset>
+            </form>
           
           </div>
 
